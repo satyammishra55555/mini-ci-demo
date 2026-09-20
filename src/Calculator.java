@@ -11,5 +11,7 @@ public class Calculator {
   public static void main(String[] args) {
     System.out.println("Addition: " + add(10, 20));
     System.out.println("Multiplication: " + multiply(5, 4));
+
+    System.out.println("CI/CD Practice Successful");
   }
 }
