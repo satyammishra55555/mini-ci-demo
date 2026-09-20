@@ -25,3 +25,7 @@ jobs:
 
       - name: Run application
         run: java -cp src Calculator
+- name: Run Unit Test
+  run: |
+    javac -cp src src/CalculatorTest.java
+    java -cp src CalculatorTest
